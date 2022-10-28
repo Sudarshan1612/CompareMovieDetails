@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.856 s <<< FAILURE! - in tests.AppTest
+validateMovieName(tests.AppTest)  Time elapsed: 15.642 s  <<< FAILURE!
+java.lang.AssertionError: Lists differ at element [0]: December 17, 2021 (India) != 17 December 2021 expected [December 17, 2021 (India)] but found [17 December 2021]
+	at tests.AppTest.validateMovieName(AppTest.java:35)
+
